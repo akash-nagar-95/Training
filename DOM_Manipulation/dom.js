@@ -9,5 +9,5 @@
 let heading = document.getElementById("heading");
 let button = document.getElementById("btn");
 button.addEventListener("click", function(){
-    heading.textContent = "message changed";
+    heading.textContent = "heading changed !!!";
 });
