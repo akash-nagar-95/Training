@@ -129,3 +129,46 @@
 //     console.log(value);
 // });
 
+
+// spread operator :
+
+// const number = [1,2,3];
+// const newNumbers = [...number, 4,5,6];
+// console.log(number);
+// console.log(newNumbers);
+// const copy = [...number];
+// console.log(copy);
+
+// const obj = {
+//     name : "Akash",
+//     age : "23",
+//     height: "5.10",
+// };
+// const newObj = {
+//     ...obj,
+//     city : "indore",
+// };
+// console.log(obj);
+// console.log(newObj);
+
+
+// rest operator : 
+// function sum(...numbers){
+//     return numbers.reduce((acc, num) => acc + num, 0);
+// }
+// console.log(sum(1,2,3,4,5));
+
+// function counter() {
+//     let count = 0;
+//     return function() {
+//         count++;
+//         console.log(count);
+//     };
+// }
+// const increment = counter();
+// increment();
+// increment();
+// increment();
+// increment();
+
+
