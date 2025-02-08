@@ -11,7 +11,7 @@ const getData = async () => {
     // using the json() method will also return second promise so we need to use "await" while conversion :
     let data = await response.json();
     console.log(data[0].text);
-    factpara.innerHTML = data[0].text;
+    factpara.innerHTML = data[1].text;
 };
 
 
